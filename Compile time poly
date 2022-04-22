@@ -1,0 +1,33 @@
+class emp
+{
+private int id;
+private int age;
+public void setId(int i)
+{
+id=i;
+}
+public int getId()
+{
+return id;
+}
+public void setAge(int n)
+{
+age=n;
+}
+public int getAge()
+{
+return age;
+}
+}
+class Encapsulation1
+{
+public static void main(String args[])
+{
+System.out.println("emp_id emp_name);
+emp p=new emp();
+p.setId(1);
+p.setAge(99);
+System.out.println(p.getId());
+System.out.println(p.getAge());
+}
+}

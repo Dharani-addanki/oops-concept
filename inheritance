@@ -1,0 +1,32 @@
+import java.util.Scanner;
+class Emp1 //parent class
+{
+	void age()
+	{
+        int age=21;
+	
+	System.out.println("age of the employe:"+age);
+	}
+}
+class Data extends Emp1
+{
+	void name()
+	{
+                 String n="dharani";
+ 		System.out.println("employe name:"+n);
+	}
+}
+
+class Inheritence
+{
+	public static void main(String args[])
+	{
+        Scanner s=new Scanner();
+        int age;
+        String n;
+	Data d =new Data();
+	d.name();
+        
+	}
+}
+	
